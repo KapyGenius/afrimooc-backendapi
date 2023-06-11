@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "blog_categories",
+  "collectionName": "blog_soussouscategories",
   "info": {
-    "singularName": "blog-categorie",
-    "pluralName": "blog-categories",
-    "displayName": "blog_categorie"
+    "singularName": "blog-soussouscategorie",
+    "pluralName": "blog-soussouscategories",
+    "displayName": "blog_soussouscategorie"
   },
   "options": {
     "draftAndPublish": true
@@ -17,11 +17,11 @@
     "description": {
       "type": "text"
     },
-    "blog_souscategories": {
+    "blog_souscategorie": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToOne",
       "target": "api::blog-souscategorie.blog-souscategorie",
-      "mappedBy": "blog_categorie"
+      "inversedBy": "blog_soussouscategories"
     }
   }
 }
