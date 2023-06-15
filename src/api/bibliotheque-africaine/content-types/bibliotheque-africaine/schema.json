@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bibliotheque_africaines",
+  "info": {
+    "singularName": "bibliotheque-africaine",
+    "pluralName": "bibliotheque-africaines",
+    "displayName": "Bibliothèque  africaine",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "adresse": {
+      "type": "string"
+    },
+    "pays": {
+      "type": "string"
+    },
+    "siteweb": {
+      "type": "string"
+    }
+  }
+}

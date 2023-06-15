@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "universite_africaines",
+  "info": {
+    "singularName": "universite-africaine",
+    "pluralName": "universite-africaines",
+    "displayName": "Université africaine",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "adresse": {
+      "type": "string"
+    },
+    "pays": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "siteweb": {
+      "type": "string"
+    }
+  }
+}

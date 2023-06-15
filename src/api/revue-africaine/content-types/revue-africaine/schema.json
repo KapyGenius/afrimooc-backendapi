@@ -48,6 +48,9 @@
     },
     "siteweb": {
       "type": "string"
+    },
+    "domaine": {
+      "type": "string"
     }
   }
 }
